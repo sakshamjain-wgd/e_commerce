@@ -6,7 +6,7 @@ import OrderList from './pages/OrderList';
 function App() {
   return (
     <Router>
-      <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '20px' }}>
+      <div className="app-container">
         <nav style={{ display: 'flex', gap: '20px', marginBottom: '30px', borderBottom: '1px solid #ccc', paddingBottom: '10px' }}>
           <Link to="/">Products & Inventory</Link>
           <Link to="/orders/new">Create Order</Link>
